@@ -1,0 +1,6 @@
+name: FarmProtect
+version: '${project.version}'
+main: net.jqstln.Core
+api-version: 1.19
+authors: [ Jqstln, Codr ]
+description: Remastered plugin of FarmProtect, working now for 1.8-1.19
