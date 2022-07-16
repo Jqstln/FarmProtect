@@ -1,13 +1,13 @@
 package net.jqstln;
 
+import net.jqstln.listeners.PlayerInteractListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Core extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        this.getServer().getPluginManager().registerEvents(new PlayerInteractListener(), this);
     }
 
     @Override
